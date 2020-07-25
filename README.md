@@ -7,14 +7,16 @@ Son las tareas de clase y practicas de diseño y programación web 2.
 ## 2. Forma de organización
 
 Cada practica o tarea estara en una rama (branch) diferente.
+
 Para el caso de ejercicios de clase:
-  - ejercicio_1
-  - ejercicio_2
-  - ...
+* ejercicio_1
+* ejercicio_2
+* ...
+
 Para las prácticas:
-  - practica_1
-  - practica_2
-  - ...
+* practica_1
+* practica_2
+* ...
 
 ## 3. ¿Como manejo este repositorio?
 
