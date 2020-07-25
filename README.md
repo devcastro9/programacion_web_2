@@ -55,9 +55,7 @@ Al clonar el repositorio, automaticamente nos hallamos en la rama principal "mas
 Lo que nos dara una salida por terminal:
 
 `En la rama master
-Tu rama está actualizada con 'origin/master'.
-
-nada para hacer commit, el árbol de trabajo está limpio`
+Tu rama está actualizada con 'origin/master' nada para hacer commit, el árbol de trabajo está limpio.`
 
 Para ir por ejemplo a la practica 1 deberiamos hacer:
 
