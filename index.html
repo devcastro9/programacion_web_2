@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Tablas</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Tablas</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3>Tabla basica 3x2</h3>
+                <TABLE BORDER>
+                    <TR>
+                        <TD>A</TD> <TD>B</TD> <TD>C</TD>
+                    </TR>
+                    <TR>
+                        <TD>D</TD> <TD>E</TD> <TD>F</TD>
+                    </TR>
+                </TABLE>
+            </div>
+            <div class="col">
+                <h3>Combinación de cabeceras múltiples y columnas expandidas</h3>
+                <TABLE BORDER>
+                    <TR>
+                        <TH COLSPAN=2>Head1</TH>
+                        <TH COLSPAN=2>Head2</TH>
+                    </TR>
+                    <TR>
+                        <TH>Head 3</TH> <TH>Head 4</TH> 
+                        <TH>Head 5</TH> <TH>Head 6</TH> 
+                    </TR>
+                    <TR>
+                        <TD>A</TD> <TD>B</TD> <TD>C</TD> <TD>D</TD> 
+                    </TR>
+                    <TR>
+                        <TD>E</TD> <TD>F</TD> <TD>G</TD> <TD>H</TD> 
+                    </TR>
+                </TABLE>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3>Combinación de cabeceras superiores y laterales. Tabla centrada. Contenidos centrados. Título al pie.</h3>
+                <CENTER>
+                    <TABLE BORDER>
+                    <CAPTION ALIGN=bottom>Resumen de tablas</CAPTION>        
+                    <TR>
+                    <TD><TH>TABLE</TH><TH>TR</TH><TH>TD</TH><TH>TH</TH><TH>CAPTION</TH></TD>
+                    </TR>
+                    
+                    <TR ALIGN=CENTER>    
+                    <TH>BORDER</TH><TD>X</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD>
+                    </TR>
+                    
+                    <TR ALIGN=CENTER>    
+                    <TH>ROWSPAN</TH><TD>-</TD><TD>-</TD><TD>X</TD><TD>X</TD><TD>-</TD>
+                    </TR>
+                    
+                    <TR ALIGN=CENTER>    
+                    <TH>COLSPAN</TH><TD>-</TD><TD>-</TD><TD>X</TD><TD>X</TD><TD>-</TD>
+                    </TR>
+                    
+                    <TR ALIGN=CENTER>    
+                    <TH>ALIGN</TH><TD>-</TD><TD>X</TD><TD>X</TD><TD>X</TD><TD>X</TD>
+                    </TR>
+                    
+                    <TR ALIGN=CENTER>    
+                    <TH>VALIGN</TH><TD>-</TD><TD>-</TD><TD>X</TD><TD>-</TD><TD>-</TD>
+                    </TR>
+                    
+                    <TR ALIGN=CENTER>    
+                    <TH>WIDTH</TH><TD>X</TD><TD>-</TD><TD>X</TD><TD>-</TD><TD>-</TD>
+                    </TR>
+                    
+                    <TR ALIGN=CENTER>    
+                    <TH>HEIGTH</TH><TD>X</TD><TD>-</TD><TD>X</TD><TD>-</TD><TD>-</TD>
+                    </TR>
+                    
+                    <TR ALIGN=CENTER>    
+                    <TH>CELLPADDING</TH><TD>X</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD>
+                    </TR>
+                    
+                    <TR ALIGN=CENTER>    
+                    <TH>CELLSPACING</TH><TD>X</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD>
+                    </TR>
+                    </TABLE>
+                    </CENTER>
+            </div>
+            <div class="col">
+                <h3>Tabla con fondos de colores y bordes</h3>
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Encargado</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Marcos</td>
+                        <td>Torrez</td>
+                        <td>Facebook</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jason</td>
+                        <td>Humerez</td>
+                        <td>Twitter</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Laura</td>
+                        <td>Martinez</td>
+                        <td>Instagram</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
