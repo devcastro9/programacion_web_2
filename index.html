@@ -71,85 +71,46 @@
         </div>
       </section>
       
-      <div class="album py-5 bg-light">
-        <div class="container">
-          <div class="row">
+      <div class="container">
+        <div class="row">
 
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top bd-placeholder-img" width="100%" height="225" src="images/debian.svg" alt="debian">
-                <div class="card-body">
-                  <a href="pagina1.html"><p class="card-text">Sistema operativo Debian GNU/Linux.</p></a>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">6 mins</small>
-                  </div>
-                </div>
-              </div>
+          <div class="col-2">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="pagina1-tab" data-toggle="pill" href="#pagina1" role="tab" aria-controls="pagina1" aria-selected="true">Debian</a>
+              <a class="nav-link" id="pagina2-tab" data-toggle="pill" href="#pagina2" role="tab" aria-controls="pagina2" aria-selected="false">Kali Linux</a>
+              <a class="nav-link" id="pagina3-tab" data-toggle="pill" href="#pagina3" role="tab" aria-controls="pagina3" aria-selected="false">Fedora</a>
+              <a class="nav-link" id="pagina4-tab" data-toggle="pill" href="#pagina4" role="tab" aria-controls="pagina4" aria-selected="false">Ubuntu</a>
+              <a class="nav-link" id="pagina5-tab" data-toggle="pill" href="#pagina5" role="tab" aria-controls="pagina5" aria-selected="false">Arch Linux</a>
+              <a class="nav-link" id="pagina6-tab" data-toggle="pill" href="#pagina6" role="tab" aria-controls="pagina6" aria-selected="false">CentOS</a>
             </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top bd-placeholder-img" width="100%" height="225" src="images/kali-linux.svg" alt="kali-linux">
-                <div class="card-body">
-                  <a href="pagina2.html"><p class="card-text">Sistema operativo Kali Linux.</p></a>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">6 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top bd-placeholder-img" width="100%" height="225" src="images/fedora.svg" alt="fedora">
-                <div class="card-body">
-                  <a href="pagina3.html"><p class="card-text">Sistema operativo Fedora.</p></a>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">6 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top bd-placeholder-img" width="100%" height="225" src="images/ubuntu.svg" alt="ubuntu">
-                <div class="card-body">
-                  <a href="pagina4.html"><p class="card-text">Sistema operativo Ubuntu.</p></a>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">6 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top bd-placeholder-img" width="100%" height="225" src="images/arch-linux.svg" alt="ubuntu">
-                <div class="card-body">
-                  <a href="pagina5.html"><p class="card-text">Sistema operativo Arch Linux.</p></a>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">6 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top bd-placeholder-img" width="100%" height="225" src="images/centos.svg" alt="ubuntu">
-                <div class="card-body">
-                  <a href="pagina6.html"><p class="card-text">Sistema operativo CentOS.</p></a>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">6 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
           </div>
+
+          <div class="col-10">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="pagina1" role="tabpanel" aria-labelledby="pagina1-tab">
+                <iframe src="pagina1.html" width="100%" height="600px" frameborder="0"></iframe>
+              </div>
+              <div class="tab-pane fade" id="pagina2" role="tabpanel" aria-labelledby="pagina2-tab">
+                <iframe src="pagina2.html" width="100%" height="600px" frameborder="0"></iframe>
+              </div>
+              <div class="tab-pane fade" id="pagina3" role="tabpanel" aria-labelledby="pagina3-tab">
+                <iframe src="pagina3.html" width="100%" height="600px" frameborder="0"></iframe>
+              </div>
+              <div class="tab-pane fade" id="pagina4" role="tabpanel" aria-labelledby="pagina4-tab">
+                <iframe src="pagina4.html" width="100%" height="600px" frameborder="0"></iframe>
+              </div>
+              <div class="tab-pane fade" id="pagina5" role="tabpanel" aria-labelledby="pagina5-tab">
+                <iframe src="pagina5.html" width="100%" height="600px" frameborder="0"></iframe>
+              </div>
+              <div class="tab-pane fade" id="pagina6" role="tabpanel" aria-labelledby="pagina6-tab">
+                <iframe src="pagina6.html" width="100%" height="600px" frameborder="0"></iframe>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
+      
     </main>
     
     <footer class="text-muted">
