@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Suma</title>
+    </head>
+    <body bgcolor="olive" text="ivory">
+        <font face="arial" size="2">
+            <h1 align="center">OPERACIONES ARITMETICAS</h1><hr></font>
+        <font face="arial" size="2"><br><br>
+        <script language="javascript">
+            var a,b,s,r,d,m,mod,i1,i2,dec1,dec2;
+            a=prompt("Introduzca un numero","");
+            a=parseInt(a);
+            b=prompt("Introduzca otro numero","");
+            b=parseInt(b);
+            s= a+b;
+            r= a-b;
+            d= a/b;
+            m= a*b;
+            mod= a%b;
+            document.write(" La suma de " + a + " y de " + b + " es " + s + "<br>");
+            document.write(" La resta de " + a + " y de " + b + " es " + r + "<br>");
+            document.write(" La division de " + a + " y de " + b + " es " + d + "<br>");
+            document.write(" La multiplicacion de " + a + " y de " + b + " es " + m + "<br>");
+            document.write(" El modulo de " + a + " y de " + b + " es " + mod + "<br>");
+            i1= ++a;
+            document.write("El incremento de " + a + " es " + i1 + "<br>");
+            i2= a++;
+            document.write("El incremento de "  + a + " es " + i2 + "<br>");
+            dec1= --b;
+            document.write("El decremento " + b + " es " + dec1 + "<br>");
+            dec2= b--;
+            document.write("El decremento " + b + " es " + dec2 + "<br>");
+        </script>
+    </body>
+</html>

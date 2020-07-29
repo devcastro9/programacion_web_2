@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script>
+        function convertir(mbs,cdol)
+        {
+            var mdol=0;
+            mdol=mbs/cdol;
+            return mdol;
+        }
+        </script>
+    </head>
+
+    <body bgcolor="yellow">
+        <h1><font face="arial" color="red">Conversión de Bolivianos a Dólares</font></h1>
+        </hr>
+        <br><br>
+        <form>
+            <b>Monto en Bolivianos</b>&nbsp;&nbsp;
+            <input name=txtbs>
+            <br><br>
+            <b>Cambio del dólar</b>&nbsp;&nbsp;&nbsp;
+            <input name=txtcdol>
+            <br>
+            <br>
+            <b>Monto en Dolares</b>&nbsp;&nbsp;
+            <input name=txtdol>
+            <br>
+            <br>
+            <hr>
+            <center>
+            <input type="button" value="Calcular" onclick="this.form.txtdol.value=convertir(this.form.txtbs.value,this.form.txtcdol.value)">
+            <input type="reset" value="Nuevos Datos">
+            <input type="button" value="Salir" onclick="window.close()">
+            </center>
+            <hr>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <center>
+            <b><h1><font face="Tahoma" color="red">Multiplicación con funciones</font></h1></b>
+            <hr>
+        </center>
+        <script>
+            function multiplica(num1,num2) //en este caso no existen argumentos 
+            {
+                var multi=0;
+                multi=num1*num2;
+                return multi;
+            }
+        </script>
+    </head>
+    <body bgcolor="black">
+        <center>
+        <font color="yellow">
+        <script>
+            var a,b;
+            a=prompt("ingrese un número","");
+            parseInt(a);
+            b=prompt("ingrese otro número","");
+            parseInt(b);
+            document.write("<h3>La multiplicación de " + a + " * "+ b + " es:</h3>");
+            document.write("<h2>"+multiplica(a,b)+"</h2>");
+        </script>
+        </font>
+    </body>
+</html>
