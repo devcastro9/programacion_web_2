@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <title>Series</title>
+        <link rel="icon" href="favicon.ico" type="ico" sizes="32x32">
+        
+        <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="myScript.js"></script>
+    </head>
+    <body class="bg-light">
+        <div class="container">
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="./images/javascript.svg" alt="JS" width="72" height="72">
+                <h2>Serie en JavaScript</h2>
+                <p class="lead">Esta es una serie en JavaScript. Se define como: 35, 8, 43, 7, 50, 5, 55, 10, 65, ...</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4 order-md-1 mb-4">
+                    <h4 class="mb-3">Ingrese los datos</h4>
+                    <div class="mb-3">
+                        <label for="primertermino">Primer termino</label>
+                        <input type="number" class="form-control" id="primertermino" value="35" min="1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="numerotermino">Número de termino</label>
+                        <input type="number" class="form-control" id="numerotermino" value="9" min="1">
+                    </div>
+                    <hr class="mb-4">
+                    <button class="btn btn-primary btn-lg btn-block" id="btn-serie">Generar serie</button>
+                </div>
+                <div class="col-md-8 order-md-2">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-muted">Resultados</span>
+                        <span class="btn btn-secondary badge badge-secondary badge-pill" id="borrar">Borrar</span>
+                    </h4>
+                    <ul class="list-group mb-3" id="resultado">
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <span class="my-0">Aun no hay resultados.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <footer class="my-5 pt-5 text-muted text-center text-small">
+                <p class="mb-1">&copy; 2020 Diseño y programación web.</p>
+            </footer>
+        </div>
+    </body>
+</html>
