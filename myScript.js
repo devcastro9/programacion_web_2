@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   $('#btn-serie').click(function(){
+    // Ejecuta la creacion de la serie
     let termino = parseInt($('#primertermino').val());
     let numero = parseInt($('#numerotermino').val());
     let html_salida = '';
@@ -16,6 +17,7 @@ $(document).ready(function(){
   });
 
   $('#borrar').click(function(){
+    // Borra los resultados
     $('#resultado').html('<li class="list-group-item d-flex justify-content-between lh-condensed"><span class="my-0">Aun no hay resultados.</span></li>');
   });
 });
