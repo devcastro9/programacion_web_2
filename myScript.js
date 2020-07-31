@@ -46,5 +46,5 @@ function sumaDigitos(numero = 0) {
       De forma alternativa este metodo puede resultar mas comprensible:
       return numero.toString().split("").map(elemento => parseInt(elemento)).reduce((total, item) => total + item);
   */
-  return numero.toString().split("").reduce((total, item) => parseInt(total) + parseInt(item));
+  return parseInt(numero.toString().split("").reduce((total, item) => parseInt(total) + parseInt(item)));
 }
